@@ -1,5 +1,5 @@
 # proto-symbol
-ASCII, Unicode Characters, Unicode Scripts, Unicode Encoding per ISO/IEC 14977
+ASCII, Unicode Characters, Unicode Scripts, Unicode Encoding, [ISO/IEC 10646](https://en.wikipedia.org/wiki/Universal_Coded_Character_Set)
 
 Note: starting with ASCII, then probably a stub implementation of UTF-8, since that will be sufficient for compiler/dealing with protobuf's symbols (as far as we use them)
 
