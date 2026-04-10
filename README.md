@@ -16,6 +16,12 @@ LDML itself has a syntax https://www.unicode.org/reports/tr35/tr35.html#Unicode_
 
 Feeds into [proto-lex](https://github.com/accretional/proto-lex/). Subsystem of [proto-sym](https://github.com/accretional/proto-sym/)
 
+## Relevant
+
+https://pkg.go.dev/unicode/utf8 has https://cs.opensource.google/go/go/+/master:src/unicode/tables.go which is very convenient for dealing with Go
+
+Most implementation right now is in https://github.com/accretional/gluon/tree/main, later we will make everything independent
+
 ## Unicode Copyright Stuff
 
 Per Unicode's https://www.unicode.org/copyright.html basically this is what's open sourced by Unicode under the [Unicode License](https://www.unicode.org/license.txt):
