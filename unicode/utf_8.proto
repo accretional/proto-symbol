@@ -2,8 +2,8 @@ package unicode;
 
 // Unicode uses variable-length encoding, ASCII is a 7-bit encoding with a 1-bit signal so that ASCII characters get encoded as 1 byte
 // Need to figure out how to represent it, placeholder
-message Character {
-  oneof encoded {
+message UTF8 {
+  oneof char {
     ASCII ascii = 1;
     uint32 symbol = 2;
   }
