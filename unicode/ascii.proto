@@ -1,7 +1,7 @@
 // https://www.unicode.org/charts/PDF/U0000.pdf
-package ascii;
+package unicode;
 
-enum Character {
+enum ASCII {
   // ===== C0 Controls (0x00 - 0x1F) =====
 
   NULL = 0;
